@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Symbolab - AI Math Solver untuk Mahasiswa dan Pelajar Indonesia
+Symbolab - Symbolic Math Solver untuk Mahasiswa dan Pelajar Indonesia
+Program pemecah masalah matematika menggunakan symbolic computation
 Mendukung: Aljabar, Trigonometri, Kalkulus, Integral, Turunan, Limit, Matriks, dan Persamaan Diferensial
 """
 
