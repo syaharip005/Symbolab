@@ -39,6 +39,9 @@ class Symbolab:
     def parse_expression(self, expr_str):
         """Parse string menjadi ekspresi SymPy"""
         try:
+            # Ganti ^ dengan ** untuk pangkat
+            expr_str = expr_str.replace('^', '**')
+            
             transformations = standard_transformations + (implicit_multiplication_application,)
             expr = parse_expr(expr_str, transformations=transformations, 
                             local_dict={'x': self.x, 'y': self.y, 'z': self.z, 't': self.t})
