@@ -1,4 +1,3 @@
-# Symbolab - AI Math Solver untuk Indonesia
 
 Program pembantu matematika lengkap untuk mahasiswa dan pelajar Indonesia. Mendukung berbagai operasi matematika dari Aljabar hingga Persamaan Diferensial.
 
